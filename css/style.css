@@ -8140,8 +8140,8 @@ body {
   font-weight: 400;
   color: #999999; }
   body.menu-show {
-    overflow: hidden;
-    position: fixed;
+    overflow: visible;
+    position: relative;
     height: 100%;
     width: 100%; }
 
@@ -8548,7 +8548,7 @@ h1, h2, h3, h4, h5,
             color: #b1b493; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              color: #fff;
+              color: black;
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -8645,7 +8645,6 @@ h1, h2, h3, h4, h5,
         background: rgba(255, 255, 255, 0.4); }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
-
 .hero-wrap {
   width: 100%;
   height: 100%;
@@ -8792,6 +8791,7 @@ h1, h2, h3, h4, h5,
     box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33); }
 
 .ftco-about ul.about-info {
+  overflow-wrap: anywhere;
   display: inline-block;
   padding: 0;
   margin: 0;
